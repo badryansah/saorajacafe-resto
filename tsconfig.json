@@ -17,6 +17,11 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/asset/SaorajaMenu/data.jsx"
+  ],
+  "exclude": ["../node_modules"]
 }
